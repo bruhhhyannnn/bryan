@@ -1,0 +1,34 @@
+.sidebar {
+	z-index: 2;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	top: 84px;
+	width: 120px;
+}
+.whole2 {
+	margin-top: 14px;
+	margin-left: 10px;
+}
+.whole2 div {
+	height: 110px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: background-color 0.15s;	
+}
+.whole2 img {
+	width: 35px;
+	margin-bottom: 10px;
+}
+.whole2:hover{
+	background-color: blue;
+}
+.whole2 p {
+	font-size: 15px;
+}
+.whole2-1:hover, .whole2-2:hover, .whole2-3:hover, .whole2-4:hover, .whole2-5:hover, .whole2-6:hover {
+	background-color: rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+}
